@@ -1,5 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("test");
+        BookShelf bookShelf = new BookShelf(4);
+        bookShelf.appendBook(new Book("test1"));
+        bookShelf.appendBook(new Book("test2"));
+        bookShelf.appendBook(new Book("test3"));
+        bookShelf.appendBook(new Book("test4"));
+
+        Iterator it = bookShelf.iterator();
+        while (it.hasNext()) {
+            Book book = (Book)it.next();
+            System.out.println(book.getName());
+        }
     }
 }
