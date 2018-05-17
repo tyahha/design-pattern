@@ -37,3 +37,20 @@ Targetのinterfaceを実装し、Adapteeを適合する
 継承による実装と移譲による実装がある
 [PrintBannerInheritance]
 [PrintBannerAggregate]
+
+# Template Method
+## メリット
+* ロジックやアルゴリズムが共通化できる
+
+
+## 登場人物
+### AbstractClass(抽象クラス)
+テンプレートメソッドを実装する。  
+テンプレートメソッドで使用する中小メソッドを宣言する。  
+[AbstractDisplay]
+
+### ConcreteClass(具象クラス)
+AbstractClassを継承して抽象メソッドを実装する。  
+[CharDisplay]  
+[StringDisplay]
+
