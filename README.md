@@ -54,3 +54,8 @@ AbstractClassを継承して抽象メソッドを実装する。
 [CharDisplay]  
 [StringDisplay]
 
+# Factory method
+## Creator
+## Product
+## ConcreteCreator
+## ConcreteProduct
