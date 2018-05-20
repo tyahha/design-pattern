@@ -55,7 +55,16 @@ AbstractClassを継承して抽象メソッドを実装する。
 [StringDisplay]
 
 # Factory method
-## Creator
-## Product
-## ConcreteCreator
+## Product(製品)
+生成されるインスタンスが持つべきインターフェースを定める抽象クラス
+[Product]
+
+## Creator(作成者)
+Productを生成する抽象クラス
+[Factory]
+
+## ConcreteCreator(具体的製品)
+[IDCard]
+
 ## ConcreteProduct
+[IDCardFactory]
