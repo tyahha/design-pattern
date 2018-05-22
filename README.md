@@ -75,3 +75,15 @@ Productを生成する抽象クラス
 ### Singleton
 唯一のインスタンス  
 [Singleton]
+
+# Prototype
+## 登場人物
+### Prototype(原型)
+[Product]
+
+### ConcreteProduct(具体的な原型)
+[MessageBox]  
+[UnderlinePen]
+
+### Client(利用者)
+[Manager]
