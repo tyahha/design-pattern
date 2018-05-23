@@ -87,3 +87,20 @@ Productを生成する抽象クラス
 
 ### Client(利用者)
 [Manager]
+
+# Builder
+## 登場人物
+### Builder(建築者)
+インスタンスを生成するためのインターフェース(API)を定める  
+[Builder]
+
+### ConcreteBuilder(具体的建築者)
+[TextBuilder]  
+[HTMLBuilder]
+
+### Director(監督役)
+Builderのインターフェースを使用してインスタンスを生成する  
+[Director]
+
+### Client(依頼人)
+[Main]
