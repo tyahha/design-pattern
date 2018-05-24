@@ -104,3 +104,29 @@ Builderのインターフェースを使用してインスタンスを生成す�
 
 ### Client(依頼人)
 [Main]
+
+
+# Abstract Factroy
+## 登場人物
+### AbstractProdut(抽象的な製品)
+[Link]  
+[Tray]  
+[Page]
+
+### AbstractFactroy(抽象的な工場)
+[Factory]
+
+### Client
+[Main]
+
+### ConcreteProduct(具体的な製品)
+[ListLink]  
+[ListTray]  
+[ListPage]  
+[TableLink]  
+[TableTray]  
+[TablePage]
+
+### ConcreteFactory(具体的な工場)
+[ListFactory]  
+[TableFactory]
