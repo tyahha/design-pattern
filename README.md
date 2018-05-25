@@ -130,3 +130,22 @@ Builderのインターフェースを使用してインスタンスを生成す�
 ### ConcreteFactory(具体的な工場)
 [ListFactory]  
 [TableFactory]
+
+# Bridge
+## 登場人物
+### Abstraction(抽象化)
+「機能のクラス階層」の最上位のクラス  
+Implementor役のメソッドを使って基本的な機能だけが記述される  
+[Display]
+
+### RefinedAbstraction(改善した抽象化)
+Abstractionに対して機能を追加する  
+[Implementor]
+
+### Implementor(実装者)
+「実装のクラス階層」の最上位のクラス  
+Abstraction役のインターフェース(API)を実装するためのメソッドを規定する役  
+[DisplayImpl]
+
+### ConcreteImplementor(具体的な実装者)
+[StringDisplayImpl]
