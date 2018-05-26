@@ -149,3 +149,16 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### ConcreteImplementor(具体的な実装者)
 [StringDisplayImpl]
+
+# Strategy
+## 登場人物
+### Strategy(戦略)
+[Strategy]
+
+### ConcreteStrategy(具体的な戦略)
+[WinningStrategy]  
+[ProbStrategy]
+
+### Context(文脈)
+[Player]
+
