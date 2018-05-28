@@ -177,3 +177,18 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Client
 [Main]
+
+# Decorator
+## 登場人物
+### Component
+[Display]
+
+### ConcreteComponent
+[StringDisplay]
+
+### Decorator
+[Border]
+
+### ConcreteDecorator
+[SideBorder]  
+[FullBorder]
