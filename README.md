@@ -192,3 +192,21 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 ### ConcreteDecorator
 [SideBorder]  
 [FullBorder]
+
+# Visitor
+## 登場人物
+### Visitor(訪問者)
+[Visitor]
+
+### ConcreteVisitor
+[ListVisitor]
+
+### Element
+[Element]
+
+### ConcreteElement
+[File]  
+[Directory]
+
+### ObjectStructure
+[Directory]
