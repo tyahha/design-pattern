@@ -224,3 +224,15 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Client
 [Main]
+
+# Facade
+## 登場人物
+### Facade
+[PageMaker]
+
+### (システムを構成するその他大勢)
+[Database]  
+[HtmlWriter]  
+
+### Client
+[Main]
