@@ -66,9 +66,9 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
     }
 
     private void userPassChange() {
-        if (textUser.getText().length() > 0) {
+        if (textUser.getText().length() >= 4) {
             textPass.setColleagueEnabled(true);
-            buttonOk.setColleagueEnabled(textPass.getText().length() > 0);
+            buttonOk.setColleagueEnabled(textPass.getText().length() >= 4);
         } else {
             textPass.setColleagueEnabled(false);
             buttonOk.setColleagueEnabled(false);
