@@ -210,3 +210,17 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### ObjectStructure
 [Directory]
+
+# Chain of Responsibility
+## 登場人物
+### Handler
+[Support]
+
+### ConcreteHandler
+[NoSupport]  
+[LimitSupport]  
+[OddSupport]  
+[SpecialSupport]  
+
+### Client
+[Main]
