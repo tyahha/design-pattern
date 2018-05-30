@@ -236,3 +236,19 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Client
 [Main]
+
+# Mediator
+## 登場人物
+### Mediator(調停者、仲介者)
+[Mediator]
+
+### ConcreteMediator(具体的な調停者、仲介者)
+[LoginFrame]
+
+### Colleague(同僚)
+[Colleague]
+
+### ConcreteColleague(具体的な同僚)
+[ColleagueButton]  
+[ColleagueTextField]  
+[ColleagueCheckBox]  
