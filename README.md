@@ -267,3 +267,14 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 ### ConcreteObserver(具体的な観測者)
 [DigitObserver]  
 [GraphObserver]  
+
+# Memento
+## 登場人物
+### Originator(作成者)
+[Gamer]  
+
+### Memento(記念品)
+[Memento]  
+
+### Caretaker(世話をする人)
+[Main]  
