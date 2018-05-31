@@ -252,3 +252,18 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 [ColleagueButton]  
 [ColleagueTextField]  
 [ColleagueCheckBox]  
+
+# Observer
+## 登場人物
+### Subject(被験者)
+[NumberGenerator]  
+
+### ConcreteSubject(具体的な被験者)
+[RandomNumberGenerator]  
+
+### Observer(観測者)
+[Observer]  
+
+### ConcreteObserver(具体的な観測者)
+[DigitObserver]  
+[GraphObserver]  
