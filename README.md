@@ -278,3 +278,15 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Caretaker(世話をする人)
 [Main]  
+
+# State
+## 登場人物
+### State(状態)
+[State]
+
+### ConcreteState(具体的な状態)
+[DayState]  
+[NightState]  
+
+### Context(状況、文脈、前後関係)
+[SafeFrame]
