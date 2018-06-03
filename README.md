@@ -290,3 +290,14 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Context(状況、文脈、前後関係)
 [SafeFrame]
+
+# Flyweight
+## 登場人物
+### Flyweight
+[BigChar]  
+
+### FlyweightFactory
+[BigCharFactory]  
+
+### Client
+[BigString]
