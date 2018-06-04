@@ -301,3 +301,17 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Client
 [BigString]
+
+# Subject
+## 登場人物
+### Subject
+[Printable]  
+
+### Proxy
+[PrinterProxy]  
+
+### RealSubject
+[Printer]  
+
+### Clinent
+[Main]
