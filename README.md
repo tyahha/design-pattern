@@ -315,3 +315,21 @@ Abstraction役のインターフェース(API)を実装するためのメソッ�
 
 ### Clinent
 [Main]
+
+# Command
+## 登場人物
+### Command
+[Command]
+
+### ConcreteCommand
+[DrawCommand]  
+[MacroCommand]  
+
+### Receiver
+[DrawCanvas]  
+
+### Client
+[Main]  
+
+### Invoker
+[Main]
